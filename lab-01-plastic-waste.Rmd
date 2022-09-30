@@ -19,7 +19,7 @@ plastic_waste <- read_csv("data/plastic-waste.csv")
 
 ### Exercise 1
 
-*Remove this text, and add your answer for Exercise 1 here.*
+All continents have the vast majority of their contries having a relatively low plastic waste per capita with only North America having an outlier with much higher waste
 
 ```{r plastic-waste-continent}
 ggplot(data = plastic_waste, 
