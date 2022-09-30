@@ -25,14 +25,15 @@ All continents have the vast majority of their contries having a relatively low 
 ggplot(data = plastic_waste, 
        mapping = aes(x = plastic_waste_per_cap, 
                      color = continent,
-                     fill = continent)) + geom_density(alpha = 0.3) 
-
+                     fill = continent)) + geom_density(alpha = 0.7)
 ```
-
 ### Exercise 2
 
 ```{r plastic-waste-density}
-# remove this comment and add the code for Exercise 2 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent,
+                     fill = continent)) + geom_density(alpha = 0.3)
 ```
 
 ### Exercise 3
