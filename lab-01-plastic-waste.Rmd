@@ -45,7 +45,10 @@ The colour and fill affects the data used wghilst alpha affects how the entire g
 *Remove this text, and add your answer for Exercise 4 here.*
 
 ```{r plastic-waste-violin}
-# remove this comment and add the code for Exercise 4 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
 ```
 
 ### Exercise 5
