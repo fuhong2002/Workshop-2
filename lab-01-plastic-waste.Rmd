@@ -38,7 +38,7 @@ ggplot(data = plastic_waste,
 
 ### Exercise 3
 
-*Remove this text, and add your answer for Exercise 3 here.*
+The colour and fill affects the data used wghilst alpha affects how the entire graph is represented
 
 ### Exercise 4
 
